@@ -91,8 +91,6 @@ public class Examen {
         this.preguntas = preguntas;
     }
 
-
-
     public Examen() {
     }
 }

@@ -20,7 +20,9 @@ public class Pregunta {
 
     private String opcion4;
     @Transient
-    private String respuestaData;
+    private String respuestaDada;
+
+
 
     private String respuesta;
 
@@ -80,15 +82,24 @@ public class Pregunta {
     }
 
     public void setOpcion4(String opcion4) {
+
         this.opcion4 = opcion4;
     }
 
-    public String getRespuestaData() {
-        return respuestaData;
+    public Examen getExamen() {
+        return examen;
     }
 
-    public void setRespuestaData(String respuestaData) {
-        this.respuestaData = respuestaData;
+    public void setExamen(Examen examen) {
+        this.examen = examen;
+    }
+
+    public String getRespuestaDada() {
+        return respuestaDada;
+    }
+
+    public void setRespuestaDada(String respuestaData) {
+        this.respuestaDada = respuestaData;
     }
 
     public String getRespuesta() {
