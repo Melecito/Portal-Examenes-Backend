@@ -65,7 +65,7 @@ public class PreguntaController {
 
     @PostMapping("/evaluar-examen")
     public ResponseEntity<?> evaluarExamen(@RequestBody List<Pregunta> preguntas){
-        double puntosMaximos = 0;
+        double puntajeMaximos = 0;
         Integer respuestasCorrectas = 0;
         Integer intentos = 0;
 
@@ -74,7 +74,7 @@ public class PreguntaController {
             if(pregunta.getRespuesta().equals(p.getRespuestaDada())){
                 respuestasCorrectas ++;
                 double puntos = Double.parseDouble(preguntas.get(0).getExamen().getPuntajeMaximos())/preguntas.size();
-                puntosMaximos += puntos;
+                puntajeMaximos += puntos;
             }
             if(p.getRespuestaDada() != null){
                 intentos ++;
@@ -82,7 +82,7 @@ public class PreguntaController {
         }
 
         Map<String,Object> respuestas = new HashMap<>();
-        respuestas.put("puntosMaximos",puntosMaximos);
+        respuestas.put("puntajeMaximos",puntajeMaximos);
         respuestas.put("respuestasCorrectas",respuestasCorrectas);
         respuestas.put("intentos",intentos);
         return ResponseEntity.ok(respuestas);
