@@ -1,12 +1,12 @@
-package com.sistema.examenes.servicios.impl;
+package com.BingoGranBuda_Ok_Backend.servicios.impl;
 
 
-import com.sistema.examenes.entidades.Usuario;
-import com.sistema.examenes.entidades.UsuarioRol;
-import com.sistema.examenes.excepciones.UsuariosFoundException;
-import com.sistema.examenes.repositorios.RolRepository;
-import com.sistema.examenes.repositorios.UsuarioRepository;
-import com.sistema.examenes.servicios.UsuarioService;
+import com.BingoGranBuda_Ok_Backend.excepciones.UsuariosFoundException;
+import com.BingoGranBuda_Ok_Backend.repositorios.RolRepository;
+import com.BingoGranBuda_Ok_Backend.repositorios.UsuarioRepository;
+import com.BingoGranBuda_Ok_Backend.entidades.Usuario;
+import com.BingoGranBuda_Ok_Backend.entidades.UsuarioRol;
+import com.BingoGranBuda_Ok_Backend.servicios.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

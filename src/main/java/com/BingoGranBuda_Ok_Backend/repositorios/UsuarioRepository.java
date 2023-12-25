@@ -1,6 +1,6 @@
-package com.sistema.examenes.repositorios;
+package com.BingoGranBuda_Ok_Backend.repositorios;
 
-import com.sistema.examenes.entidades.Usuario;
+import com.BingoGranBuda_Ok_Backend.entidades.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {

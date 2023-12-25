@@ -4,7 +4,7 @@
     <persistence-units>
       <persistence-unit name="Default">
         <packages>
-          <package value="com.sistema.examenes" />
+          <package value="com.BingoGranBuda_Ok_Backend" />
         </packages>
       </persistence-unit>
     </persistence-units>

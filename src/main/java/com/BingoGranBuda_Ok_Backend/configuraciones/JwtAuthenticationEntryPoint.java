@@ -1,4 +1,4 @@
-package com.sistema.examenes.configuraciones;
+package com.BingoGranBuda_Ok_Backend.configuraciones;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;

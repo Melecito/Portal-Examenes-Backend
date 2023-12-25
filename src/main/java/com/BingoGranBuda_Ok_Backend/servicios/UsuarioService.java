@@ -1,7 +1,7 @@
-package com.sistema.examenes.servicios;
+package com.BingoGranBuda_Ok_Backend.servicios;
 
-import com.sistema.examenes.entidades.Usuario;
-import com.sistema.examenes.entidades.UsuarioRol;
+import com.BingoGranBuda_Ok_Backend.entidades.Usuario;
+import com.BingoGranBuda_Ok_Backend.entidades.UsuarioRol;
 
 import java.util.Set;
 

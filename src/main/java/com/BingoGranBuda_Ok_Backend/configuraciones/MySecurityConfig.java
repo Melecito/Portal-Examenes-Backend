@@ -1,6 +1,6 @@
-package com.sistema.examenes.configuraciones;
+package com.BingoGranBuda_Ok_Backend.configuraciones;
 
-import com.sistema.examenes.servicios.impl.UserDetailsServiceImpl;
+import com.BingoGranBuda_Ok_Backend.servicios.impl.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.sistema.examenes.entidades;
+package com.BingoGranBuda_Ok_Backend.entidades;
 
 import org.springframework.security.core.GrantedAuthority;
 

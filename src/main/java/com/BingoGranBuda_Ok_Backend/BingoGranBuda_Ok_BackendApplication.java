@@ -1,11 +1,18 @@
 package com.BingoGranBuda_Ok_Backend;
 
+import com.BingoGranBuda_Ok_Backend.entidades.Rol;
+import com.BingoGranBuda_Ok_Backend.entidades.Usuario;
+import com.BingoGranBuda_Ok_Backend.entidades.UsuarioRol;
+import com.BingoGranBuda_Ok_Backend.excepciones.UsuariosFoundException;
 import com.BingoGranBuda_Ok_Backend.servicios.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+import java.util.HashSet;
+import java.util.Set;
 
 @SpringBootApplication
 public class BingoGranBuda_Ok_BackendApplication implements CommandLineRunner {

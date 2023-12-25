@@ -1,9 +1,9 @@
-package com.sistema.examenes.controller;
+package com.BingoGranBuda_Ok_Backend.controller;
 
-import com.sistema.examenes.entidades.Rol;
-import com.sistema.examenes.entidades.Usuario;
-import com.sistema.examenes.entidades.UsuarioRol;
-import com.sistema.examenes.servicios.UsuarioService;
+import com.BingoGranBuda_Ok_Backend.entidades.Rol;
+import com.BingoGranBuda_Ok_Backend.entidades.Usuario;
+import com.BingoGranBuda_Ok_Backend.entidades.UsuarioRol;
+import com.BingoGranBuda_Ok_Backend.servicios.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;

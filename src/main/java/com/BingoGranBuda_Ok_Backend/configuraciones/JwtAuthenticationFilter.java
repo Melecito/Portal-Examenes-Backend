@@ -1,6 +1,6 @@
-package com.sistema.examenes.configuraciones;
+package com.BingoGranBuda_Ok_Backend.configuraciones;
 
-import com.sistema.examenes.servicios.impl.UserDetailsServiceImpl;
+import com.BingoGranBuda_Ok_Backend.servicios.impl.UserDetailsServiceImpl;
 import io.jsonwebtoken.ExpiredJwtException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

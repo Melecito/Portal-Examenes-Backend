@@ -1,4 +1,4 @@
-package com.sistema.examenes.excepciones;
+package com.BingoGranBuda_Ok_Backend.excepciones;
 
 public class UsuariosFoundException extends Exception {
 

@@ -1,10 +1,10 @@
-package com.sistema.examenes;
+package com.BingoGranBuda_Ok_Backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SistemasExamenesBackendApplicationTests {
+class BingoGranBuda_Ok_BackendApplicationTests {
 
 	@Test
 	void contextLoads() {

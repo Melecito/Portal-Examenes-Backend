@@ -1,11 +1,11 @@
-package com.sistema.examenes.controller;
+package com.BingoGranBuda_Ok_Backend.controller;
 
-import com.sistema.examenes.configuraciones.JwtUtils;
-import com.sistema.examenes.entidades.JwtRequest;
-import com.sistema.examenes.entidades.JwtResponse;
-import com.sistema.examenes.entidades.Usuario;
-import com.sistema.examenes.excepciones.UsuariosNotFoundException;
-import com.sistema.examenes.servicios.impl.UserDetailsServiceImpl;
+import com.BingoGranBuda_Ok_Backend.configuraciones.JwtUtils;
+import com.BingoGranBuda_Ok_Backend.entidades.JwtRequest;
+import com.BingoGranBuda_Ok_Backend.entidades.JwtResponse;
+import com.BingoGranBuda_Ok_Backend.entidades.Usuario;
+import com.BingoGranBuda_Ok_Backend.excepciones.UsuariosNotFoundException;
+import com.BingoGranBuda_Ok_Backend.servicios.impl.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

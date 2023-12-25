@@ -1,7 +1,7 @@
-package com.sistema.examenes.servicios.impl;
+package com.BingoGranBuda_Ok_Backend.servicios.impl;
 
-import com.sistema.examenes.entidades.Usuario;
-import com.sistema.examenes.repositorios.UsuarioRepository;
+import com.BingoGranBuda_Ok_Backend.repositorios.UsuarioRepository;
+import com.BingoGranBuda_Ok_Backend.entidades.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

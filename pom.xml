@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sistema.examen</groupId>
-	<artifactId>sistema-examenes-backend</artifactId>
+	<artifactId>BingoGranBuda_Ok_Backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sistema-examenes-backend</name>
+	<name>BingoGranBuda_Ok_Backend</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
