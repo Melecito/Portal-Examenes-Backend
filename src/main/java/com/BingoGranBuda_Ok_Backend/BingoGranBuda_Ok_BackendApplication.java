@@ -1,21 +1,14 @@
-package com.sistema.examenes;
+package com.BingoGranBuda_Ok_Backend;
 
-import com.sistema.examenes.entidades.Rol;
-import com.sistema.examenes.entidades.Usuario;
-import com.sistema.examenes.entidades.UsuarioRol;
-import com.sistema.examenes.excepciones.UsuariosFoundException;
-import com.sistema.examenes.servicios.UsuarioService;
+import com.BingoGranBuda_Ok_Backend.servicios.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import java.util.HashSet;
-import java.util.Set;
-
 @SpringBootApplication
-public class SistemasExamenesBackendApplication implements CommandLineRunner {
+public class BingoGranBuda_Ok_BackendApplication implements CommandLineRunner {
 
 	@Autowired
 	private UsuarioService usuarioService;
@@ -25,7 +18,7 @@ public class SistemasExamenesBackendApplication implements CommandLineRunner {
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(SistemasExamenesBackendApplication.class, args);
+		SpringApplication.run(BingoGranBuda_Ok_BackendApplication.class, args);
 	}
 
 	@Override
