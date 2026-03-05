@@ -1,0 +1,29 @@
+services:
+  mysql_db:
+    image: mysql:8.0
+    container_name: mysql_examenes
+    restart: always
+    environment:
+      MYSQL_DATABASE: ${DB_NAME:-sistema_examenes_sprint_boot}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "3310:3306" # Puerto externo 3307 para no chocar con otros MySQL locales
+    volumes:
+      - db_data:/var/lib/mysql
+
+  backend:
+    build: .
+    container_name: backend_examenes
+    restart: on-failure
+    depends_on:
+      - mysql_db
+    ports:
+      - "8085:8080"
+    env_file:
+      - .env # Aquí se cargan tus variables automáticamente
+    environment:
+      # Sobrescribimos la URL para que apunte al nombre del servicio de red de Docker
+      - DB_URL=jdbc:mysql://mysql_db:3306/${DB_NAME:-sistema_examenes_sprint_boot}
+
+volumes:
+  db_data:

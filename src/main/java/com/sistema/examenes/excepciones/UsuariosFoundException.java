@@ -7,6 +7,7 @@ public class UsuariosFoundException extends Exception {
     }
 
     public UsuariosFoundException(String mensaje){
+
         super(mensaje);
     }
 }
